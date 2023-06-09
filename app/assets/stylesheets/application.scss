@@ -1,0 +1,20 @@
+$primary: #FF3D5F; // Set the primary color to red
+
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+@import "components/logo";
+@import "components/nav2";
+@import "star-rating.js/dist/star-rating.css";
+@import "flatpickr/dist/flatpickr.css";
